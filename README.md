@@ -2,6 +2,14 @@
 
 This repository contains codes for several webscraping one-off projects that I have done. Most of them are in jupyter notebooks because the objective was to extract the data once and then deliver it to the client.
 
+# Restor-Eco Scraper
+
+The `restore-eco` folder contains the code to scrape organizations from the [Restor-Eco website](https://restor.eco/organizations/?lat=26&lng=14.23&zoom=3)
+
+The code is written in Python and uses Selenium and BeautifulSoup to scrape the organizations data. The chromedriver should be in the path outlined in `constants.py`, so this path should be updated accordingly.
+
+The code takes a couple of hours to run, and the output is saved in the `eco-restor-orgs.csv` file.
+
 ## Indian Schools - BeautifulSoup
 
 The /india folder contains code that provides a _rough_ approach to obtain data from the schools displayed in the following [site](https://schoolgis.nic.in/).
