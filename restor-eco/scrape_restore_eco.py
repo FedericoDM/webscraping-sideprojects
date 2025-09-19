@@ -7,14 +7,14 @@ import os
 import time
 import pandas as pd
 
-from util.constants import (
+from utils.constants import (
     URL,
     DEFAULT_TOTAL_ORGS,
     LOCAL_PATH_WIN,
     LOCAL_PATH_UBUNTU,
 )
 from bs4 import BeautifulSoup
-from util.driver_manager import DriverManager
+from utils.driver_manager import DriverManager
 
 
 current_dir = os.getcwd()
